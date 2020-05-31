@@ -634,7 +634,15 @@ color: #FFFFFF;
 .header-burger-after{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    z-index: 99999;
+    width: 300px;
+    top: 90px;
     display: none;
+   right: 0px;
+   padding: 20px;
+    background-color: white;
+   
 }
 .header-burger-after-active{
     display: block;
@@ -737,6 +745,7 @@ opacity: 0.8
     }
     .header-wrapper{
         padding: 0px;;
+        position: relative;
     }
     .block-3{
         background: #FFFFFF;
